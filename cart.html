@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Корзина — VL Climate</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">VL Climate</a>
+      <nav>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Ваша корзина</h2>
+    <div class="cart">
+      <p>Пока что это статическая страница — в реальном приложении корзину хранит сервер или localStorage.</p>
+      <!-- Таблица/список покупок -->
+      <table class="cart-table">
+        <thead>
+          <tr><th>Товар</th><th>Кол-во</th><th>Цена</th><th>Итого</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Товар 1</td>
+            <td>1</td>
+            <td>₴499</td>
+            <td>₴499</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="cart-actions">
+        <button class="btn btn-outline">Продолжить покупки</button>
+        <button class="btn">Оформить заказ</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© VL Climate — учебный проект</small>
+    </div>
+  </footer>
+</body>
+</html>
